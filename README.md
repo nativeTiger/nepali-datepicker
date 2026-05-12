@@ -1,4 +1,4 @@
-# react-nepali-datepicker
+# react-bs-calendar
 
 A production-ready **Nepali (Bikram Sambat)** date picker for React — built on [Radix UI](https://www.radix-ui.com/) primitives with the [shadcn/ui](https://ui.shadcn.com/) design system and Tailwind CSS.
 
@@ -23,13 +23,13 @@ A production-ready **Nepali (Bikram Sambat)** date picker for React — built on
 
 ```bash
 # npm
-npm install react-nepali-datepicker
+npm install react-bs-calendar
 
 # pnpm
-pnpm add react-nepali-datepicker
+pnpm add react-bs-calendar
 
 # yarn
-yarn add react-nepali-datepicker
+yarn add react-bs-calendar
 ```
 
 ### Peer dependencies
@@ -72,7 +72,7 @@ export default {
 ## Quick start
 
 ```tsx
-import { NepaliDatePicker } from "react-nepali-datepicker";
+import { NepaliDatePicker } from "react-bs-calendar";
 import NepaliDate from "nepali-date-converter";
 import { useState } from "react";
 
@@ -191,7 +191,7 @@ Headless calendar grid — no popover. Embed directly in your UI.
 Same as `<NepaliDatePicker>` except the trigger/popover props (`placeholder`, `clearable`, `align`, `displayFormat`, `triggerClassName`, `disabledDates`). Use `selected` / `onSelect` / `disabled` instead.
 
 ```tsx
-import { NepaliCalendar } from "react-nepali-datepicker";
+import { NepaliCalendar } from "react-bs-calendar";
 
 <NepaliCalendar
   mode="range"
@@ -219,8 +219,8 @@ import { NepaliCalendar } from "react-nepali-datepicker";
 Standalone 24-hour spin-button time input.
 
 ```tsx
-import { TimePicker } from "react-nepali-datepicker";
-import type { TimeValue } from "react-nepali-datepicker";
+import { TimePicker } from "react-bs-calendar";
+import type { TimeValue } from "react-bs-calendar";
 
 const [time, setTime] = useState<TimeValue>({ hours: 9, minutes: 0 });
 
@@ -245,7 +245,7 @@ import type {
   TimeRangeValue,
   Matcher,
   CaptionLayout,
-} from "react-nepali-datepicker";
+} from "react-bs-calendar";
 
 // Date range
 type NepaliDateRange = {
@@ -305,7 +305,7 @@ import {
   toNepaliNumerals,
   toEnglishNumerals,
   isDateDisabled,
-} from "react-nepali-datepicker";
+} from "react-bs-calendar";
 ```
 
 ### AD ↔ BS conversion

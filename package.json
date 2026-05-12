@@ -1,5 +1,5 @@
 {
-  "name": "react-nepali-datepicker",
+  "name": "react-bs-calendar",
   "version": "1.0.0",
   "description": "Production-ready Nepali (Bikram Sambat) date picker for React — single date, date range, time picker, keyboard navigation, Devanagari locale, and shadcn/ui design system.",
   "keywords": [
