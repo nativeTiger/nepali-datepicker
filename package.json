@@ -1,5 +1,5 @@
 {
-  "name": "nepali-datepicker",
+  "name": "react-nepali-datepicker",
   "version": "1.0.0",
   "description": "Production-ready Nepali (Bikram Sambat) date picker for React — single date, date range, time picker, keyboard navigation, Devanagari locale, and shadcn/ui design system.",
   "keywords": [
@@ -19,7 +19,7 @@
   "bugs": "https://github.com/nativeTiger/nepali-datepicker/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nativeTiger/nepali-datepicker.git"
+    "url": "git+https://github.com/nativeTiger/nepali-datepicker.git"
   },
   "license": "MIT",
   "author": "nativeTiger",
