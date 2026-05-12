@@ -20,7 +20,7 @@ import {
   NepaliDatePicker,
   type NepaliDateRange,
   type TimeValue,
-} from "nepali-datepicker";
+} from "react-bs-calendar";
 
 // ─── 1. Single date ───────────────────────────────────────────────────────────
 

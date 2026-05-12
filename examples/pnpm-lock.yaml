@@ -23,12 +23,12 @@ importers:
       nepali-date-converter:
         specifier: ^3.4.0
         version: 3.4.0
-      nepali-datepicker:
-        specifier: link:..
-        version: link:..
       react:
         specifier: ^19.0.0
         version: 19.2.6
+      react-bs-calendar:
+        specifier: ^1.0.0
+        version: 1.0.0(@radix-ui/react-popover@1.1.15(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@radix-ui/react-select@2.2.6(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@0.462.0(react@19.2.6))(nepali-date-converter@3.4.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(tailwindcss@3.4.19)
       react-dom:
         specifier: ^19.0.0
         version: 19.2.6(react@19.2.6)
@@ -1117,6 +1117,17 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
+  react-bs-calendar@1.0.0:
+    resolution: {integrity: sha512-A+udOFQOF6sgreaO79xYCbUYWjRqXydcWH9FWaMk37wlcpp4bTU/l1Jql8A/LYQrMcBjVtc8EKcy+15qEc82BQ==}
+    peerDependencies:
+      '@radix-ui/react-popover': '>=1.0.0'
+      '@radix-ui/react-select': '>=2.0.0'
+      lucide-react: '>=0.400.0'
+      nepali-date-converter: '>=3.0.0'
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+      tailwindcss: '>=3.0.0'
+
   react-dom@19.2.6:
     resolution: {integrity: sha512-0prMI+hvBbPjsWnxDLxlCGyM8PN6UuWjEUCYmZhO67xIV9Xasa/r/vDnq+Xyq4Lo27g8QSbO5YzARu0D1Sps3g==}
     peerDependencies:
@@ -2196,6 +2207,16 @@ snapshots:
       source-map-js: 1.2.1
 
   queue-microtask@1.2.3: {}
+
+  react-bs-calendar@1.0.0(@radix-ui/react-popover@1.1.15(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@radix-ui/react-select@2.2.6(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(lucide-react@0.462.0(react@19.2.6))(nepali-date-converter@3.4.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(tailwindcss@3.4.19):
+    dependencies:
+      '@radix-ui/react-popover': 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@radix-ui/react-select': 2.2.6(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      lucide-react: 0.462.0(react@19.2.6)
+      nepali-date-converter: 3.4.0
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
+      tailwindcss: 3.4.19
 
   react-dom@19.2.6(react@19.2.6):
     dependencies:

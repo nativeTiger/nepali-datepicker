@@ -14,14 +14,16 @@
     "@radix-ui/react-select": "^2.1.0",
     "lucide-react": "^0.462.0",
     "nepali-date-converter": "^3.4.0",
-    "nepali-datepicker": "link:..",
     "react": "^19.0.0",
+    "react-bs-calendar": "^1.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.0",
     "zod": "^3.23.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
