@@ -12,6 +12,8 @@
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-popover": "^1.1.0",
     "@radix-ui/react-select": "^2.1.0",
+    "@tanstack/react-form": "^1.32.0",
+    "@tanstack/zod-form-adapter": "^0.42.1",
     "lucide-react": "^0.462.0",
     "nepali-date-converter": "^3.4.0",
     "react": "^19.0.0",
