@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/react-bs-calendar)](https://www.npmjs.com/package/react-bs-calendar)
 [![npm downloads](https://img.shields.io/npm/dm/react-bs-calendar)](https://www.npmjs.com/package/react-bs-calendar)
 [![license](https://img.shields.io/npm/l/react-bs-calendar)](https://github.com/nativeTiger/nepali-datepicker/blob/main/LICENSE)
+[![demo](https://img.shields.io/badge/demo-live-brightgreen)](https://nepali-datepicker-seven.vercel.app/)
 
 A production-ready **Nepali (Bikram Sambat)** date picker for React — built on [Radix UI](https://www.radix-ui.com/) primitives with the [shadcn/ui](https://ui.shadcn.com/) design system and Tailwind CSS.
 
